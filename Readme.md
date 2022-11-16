@@ -172,66 +172,67 @@ MAIN Function
 
 
 ## peseudocode
+
 while True:
-if the variable  silver is true:
+      if the variable  silver is true:
 
-   print"silver token detected"
+         print"silver token detected"
 
-   find silver_token distance ,rotation and the associated code
+      find silver_token distance ,rotation and the associated code
 
-   if the silver token already paired:
+      if the silver token already paired:
 
-      turn  right
-else:
-    find golden_token distance ,rotation and associated code
+         turn  right
+      else:
+           find golden_token distance ,rotation and associated code
 
-    if the golden_token already paired:
+           if the golden_token already paired:
 
-    turn right 
+                turn right 
 
-if dist = -1 :
+      if dist = -1 :
 
-    print"i don't see any token"
+        print"i don't see any token"
 
-    turn clockwise
+        turn clockwise
 
-elif dist <= d_th:
+      elif dist <= d_th:
 
-    print"found it"
+          print"found it"
 
-    if the token is not grabed:
+          if the token is not grabed:
 
-       grab the_silver_token
+              grab the_silver_token
 
-       store the code of the silver_token in list 1
+              store the code of the silver_token in list 1
 
-       print"silver token catched"
+              print"silver token catched"
 
-       declare that you are grabing a token
+              declare that you are grabing a token
 
-       set the variable silver to false
+              set the variable silver to false
 
-     else:
+       else:
 
-        Release the silver token
+           Release the silver token
 
-        store the golden token already paired
+           store the golden token already paired
 
-        declare that you are nt grabing any token
+           declare that you are nt grabing any token
 
-        set the silver variable to True
+           set the silver variable to True
 
-elif the token is well aligned with the robot:
+       elif the token is well aligned with the robot:
 
-       go straight forward
+            go straight forward
 
-elif the robot is on the left:
+        elif the robot is on the left:
 
-      turn right
+             turn right
 
-elif the robot is on the right:
+        elif the robot is on the right:
 
-      turn left
+             turn left
      
 
  # Results

@@ -170,16 +170,17 @@ two lists impleented to store the codes of the tokens already paired,this is ess
 MAIN Function
 ---------
 
-Before start coding it was very useful to create a Flowchart to have clear ideas on the main actions that the robot has to do in its path inside the maze.
-
-![FlowChart](https://user-images.githubusercontent.com/81308076/139292559-a076b5e5-06ac-4153-b2c1-8f0a6afffaa7.png)
 
 ## peseudocode
-while True
+while True:
 if the variable  silver is true:
+
    print"silver token detected"
+
    find silver_token distance ,rotation and the associated code
+
    if the silver token already paired:
+
       turn  right
 else:
     find golden_token distance ,rotation and associated code

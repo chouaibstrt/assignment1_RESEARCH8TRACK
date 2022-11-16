@@ -243,7 +243,7 @@ this video shows the performance of the robot.
 
 https://github.com/chouaibstrt/assignment1_RESEARCH8TRACK/blob/main/test.mp4
 ------
-# discussion and possible improvement
+# discussion :
 
 I focused in my solution to make my system as stable as possible,finishing the task as fast as possible and not crashing the silver_tokens against each other when moving another one. To overcome this chalenges  i spent time tuninig and chosing the speed and the angles suitable to satisfy this specifications.
 
@@ -253,12 +253,10 @@ one of the problems that i faced is when trying to move and turn the robot at ma
 
 Also in my view using a combined movement create more chalenges if we consider a real system specification and dealing with that mathemathically ,require a complex model and it will be out of the scope of the assignment purpose .
 
-# improvement
+# improvement :
 
-1. __always find the colsest token__ : implementig that require the token to turn 360° store every token distance and compute the minimum distance (for our specefic token orientation this will waste more time and decrease efficiency)
+1. __always find the nearest token__ : implementig that require the token to turn 360° store every token distance and compute the minimum distance (for our specefic token orientation this will waste more time and decrease efficiency)
 
 
 2. __time and space complexity__ : I'm not sure if this improvement is feasible but i think that if we have to deal with a very large number of tokens,optimizing run time and the memory space used is vital (iam not sure but  i think in the worst case if we have n tokens ,to optimize the time required to finish the task will grow exponatially "Np hard problems category".
 
-
-[sr-api]: https://studentrobotics.org/docs/programming/sr/

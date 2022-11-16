@@ -174,65 +174,66 @@ MAIN Function
 ## peseudocode
 
 while True:
-      if the variable  silver is true:
+           if the variable  silver is true:
 
-         print"silver token detected"
+               print"silver token detected"
 
-      find silver_token distance ,rotation and the associated code
+               find silver_token distance ,rotation and the associated code
 
-      if the silver token already paired:
+           if the silver token already paired:
 
-         turn  right
-      else:
-           find golden_token distance ,rotation and associated code
+               turn  right
+           else:
 
-           if the golden_token already paired:
+                find golden_token distance ,rotation and associated code
 
-                turn right 
+                if the golden_token already paired:
 
-      if dist = -1 :
+                   turn right 
 
-        print"i don't see any token"
+           if dist = -1 :
 
-        turn clockwise
+                          print"i don't see any token"
 
-      elif dist <= d_th:
+                           turn clockwise
 
-          print"found it"
+           elif dist <= d_th:
 
-          if the token is not grabed:
+                               print"found it"
 
-              grab the_silver_token
+                               if the token is not grabed:
 
-              store the code of the silver_token in list 1
+                                    grab the_silver_token
 
-              print"silver token catched"
+                                    store the code of the silver_token in list 1
 
-              declare that you are grabing a token
+                                    print"silver token catched"
 
-              set the variable silver to false
+                                    declare that you are grabing a token
 
-       else:
+                                    set the variable silver to false
 
-           Release the silver token
+            else:
 
-           store the golden token already paired
+                  Release the silver token
 
-           declare that you are nt grabing any token
+                  store the golden token already paired
 
-           set the silver variable to True
+                  declare that you are nt grabing any token
 
-       elif the token is well aligned with the robot:
+                  set the silver variable to True
 
-            go straight forward
+            elif the token is well aligned with the robot:
 
-        elif the robot is on the left:
+                                                           go straight forward
 
-             turn right
+            elif the robot is on the left:
 
-        elif the robot is on the right:
+                                                           turn right
 
-             turn left
+            elif the robot is on the right:
+
+                                                           turn left
      
 
  # Results

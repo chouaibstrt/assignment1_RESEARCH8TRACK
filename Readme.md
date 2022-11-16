@@ -245,17 +245,20 @@ https://github.com/chouaibstrt/assignment1_RESEARCH8TRACK/blob/main/test.mp4
 ------
 # discussion and possible improvement
 
-I focused in my solution to make my system stable,finishing the task as fast as possible and not crashing the silver_tokens against each other when moving another one. To overcome this chalenges  i spent time tuninig and chosing the speed and the angles suitable to satisfy this specifications.
+I focused in my solution to make my system as stable as possible,finishing the task as fast as possible and not crashing the silver_tokens against each other when moving another one. To overcome this chalenges  i spent time tuninig and chosing the speed and the angles suitable to satisfy this specifications.
 
-The project main dificulty is to find a comprimise between a general solution that works for any number and orientation of the tokens ,in the same optimize the solution for this specific task.
+The project main dificulty is to find a comprimise between a general solution that works for any tokens number and orientation ,in the same time optimize the solution for this specific task.
 
 one of the problems that i faced is when trying to move and turn the robot at maximum speed ,if you move so fast you run into the problem of being not able to align the robot with the token .and somtimes you stuck periodically turning right and left correspending to the line that align the robot and token.this problem is mariginally unstable system from a controle point of view.
 
 Also in my view using a combined movement create more chalenges if we consider a real system specification and dealing with that mathemathically ,require a complex model and it will be out of the scope of the assignment purpose .
 
+# improvement
+
 1. __always find the colsest token__ : implementig that require the token to turn 360° store every token distance and compute the minimum distance (for our specefic token orientation this will waste more time and decrease efficiency)
 
 
 2. __time and space complexity__ : I'm not sure if this improvement is feasible but i think that if we have to deal with a very large number of tokens,optimizing run time and the memory space used is vital (iam not sure but  i think in the worst case if we have n tokens ,to optimize the time required to finish the task will grow exponatially "Np hard problems category".
+
 
 [sr-api]: https://studentrobotics.org/docs/programming/sr/
